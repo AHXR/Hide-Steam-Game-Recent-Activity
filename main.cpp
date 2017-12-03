@@ -58,6 +58,10 @@ void main()
 	LOG("[COLOR:GREEN]Hide Steam Game Recent Activity by AHXR (github.com/ahxr)");
 	SHGetSpecialFolderPath(0, c_program_buffer, CSIDL_PROGRAM_FILES, FALSE);
 
+#if _WIN64
+	strcat(c_program_buffer, " (x86)");
+#endif
+
 	s_spacewar = c_program_buffer + string(SPACEWAR_DIR) + string("steam_appid.txt");
 	c_spacewar = s_spacewar.c_str();
 

@@ -1,9 +1,6 @@
 # Hide Steam Game Recent Activity (Windows)
 
-Make sure you have Spacewar installed on Steam. Otherwise, this application will automatically prompt the installation for you. If you want to install Spacewar manually, run
+Simple and easy. Run the program and it will hide your Steam games. Make sure CS:GO isn't your most recent played game. If it is, simply run another game and exit. This uses the
+CS:GO Player Profiles app to hide your games. As a result, the Steam process will be terminated once all player profiles are ran. This is so Steam doesn't process you closing out
+the Player Profiles app, which will leave it on your Recent Activity.
 
-```
-steam://install/480/
-```
-
-Once Spacewar is installed. Simply run the executable. It will clear your Steam game activity. This application does not automatically set your Steam status. 
